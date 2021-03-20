@@ -1,0 +1,20 @@
+{
+  "name": "ibm",
+  "version": "1.0.0",
+  "description": "EXAMEN monaschinas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "author": "Hector Zuñiga",
+  "license": "ISC",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.7.1"
+  },
+  "devDependencies": {}
+}

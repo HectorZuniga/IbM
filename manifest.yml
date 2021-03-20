@@ -1,0 +1,9 @@
+---
+applications:
+- name: examen-haz
+  random-route: true
+  memory: 128M
+  buildpacks:
+  - sdk-for-nodejs
+  path: .
+  command: node index.js
